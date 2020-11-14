@@ -75,7 +75,7 @@ class Params {
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_SPWAN_ISFREE_PROB"]);
         values[]={0,10,20,30,40,45,50,60,70,80,90,100};
         texts[]={"0%","10%","20%","30%","40%","45%","50%","60%","70%","80%","90%","100%"};
-        default = 45;
+        default = 30;
     };
     class btc_p_mil_group_ratio { // Enemy density:
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_SPWAN_ENEMY_DENSITY"]);
@@ -93,13 +93,13 @@ class Params {
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_SPWAN_MIL_INHOUSE_DENSITY"]);
         values[]={0,10,20,30,40,50,60,70,80,90,100};
         texts[]={"0%","10%","20%","30%","40%","50%","60%","70%","80%","90%","100%"};
-        default = 30;
+        default = 50;
     };
     class btc_p_veh_armed_ho { // Add armed vehicles in Hideout:
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_SPAWN_ARMEDHIDEOUT"]);
         values[] = {0,1};
         texts[] = {$STR_DISABLED,$STR_ENABLED};
-        default = 0;
+        default = 1;
     };
     class btc_p_veh_armed_spawn_more { // Add armed vehicles in Side mission/Cache:
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_SPAWN_ARMEDOTHER"]);
@@ -207,13 +207,13 @@ class Params {
         title = __EVAL(format ["      %1, %2", localize "STR_A3_CFGVEHICLES_MODULESKILL_F_0", localize "STR_3DEN_SCENARIO_TEXTSINGULAR"]);
         values[]={0,1,2,3,4,5,6,7,8,9,10};
         texts[]={"0","0.1","0.2","0.3","0.4","0.5","0.6","0.7","0.8","0.9","1"};
-        default = 0;
+        default = 2;
     };
     class btc_p_set_skill_aimingAccuracy { // Set skill, aimingAccuracy
         title = __EVAL(format ["      %1, %2", localize "STR_A3_CFGVEHICLES_MODULESKILL_F_0", localize "STR_BTC_HAM_PARAM_SKILL_AIMACC"]);
         values[]={0,1,2,3,4,5,6,7,8,9,10};
         texts[]={"0","0.1","0.2","0.3","0.4","0.5","0.6","0.7","0.8","0.9","1"};
-        default = 1;
+        default = 3;
     };
     class btc_p_set_skill_aimingShake { // Set skill, aimingShake
         title = __EVAL(format ["      %1, %2", localize "STR_A3_CFGVEHICLES_MODULESKILL_F_0", localize "STR_BTC_HAM_PARAM_SKILL_AIMSKILL"]);
@@ -261,7 +261,7 @@ class Params {
         title = __EVAL(format ["      %1, %2", localize "STR_A3_CFGVEHICLES_MODULESKILL_F_0", localize "STR_A3_CFGHINTS0"]);
         values[]={0,1,2,3,4,5,6,7,8,9,10};
         texts[]={"0","0.1","0.2","0.3","0.4","0.5","0.6","0.7","0.8","0.9","1"};
-        default = 7;
+        default = 10;
     };
     class btc_p_gameplay_title { // << Gameplay options >>
         title = $STR_BTC_HAM_PARAM_GAMEPLAY_TITLE;
@@ -309,7 +309,7 @@ class Params {
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_ARSENAL_ARSENALRESTR"]);
         values[]={0,1,2,3};
         texts[] = {$STR_DISABLED,$STR_3DEN_ATTRIBUTES_SPEEDMODE_FULL,$STR_BTC_HAM_PARAM_ARSENAL_ARSENALRESTR_REMOVEONLY,$STR_BTC_HAM_PARAM_ARSENAL_ARSENALRESTR_FILTER}; //texts[]={"Off","Full","Remove only (works only with ACE3-Arsenal)","Filter on player role (works only with ACE3-Arsenal)"};
-        default = 3;
+        default = 0;
     };
     class btc_p_autoloadout { // loadout:
         title = __EVAL(format ["      %1:", localize "STR_ACE_Interaction_Equipment"]);
@@ -321,7 +321,7 @@ class Params {
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_ARSENAL_GARAGEADMIN"]);
         values[]={0,1};
         texts[]={$STR_DISABLED,$STR_ENABLED};
-        default = 0;
+        default = 1;
     };
     class btc_p_main_title { // << Other options >>
         title = $STR_BTC_HAM_PARAM_OTHER_TITLE;
