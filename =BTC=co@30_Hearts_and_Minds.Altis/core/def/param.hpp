@@ -15,7 +15,7 @@ class Params {
         title = __EVAL(format ["      %1", localize "STR_USRACT_TIME_INC"]);
         values[]={1,2,3,4,5,6,7,8,9,10,11,12};
         texts[]={"1","2","3","4","5","6","7","8","9","10","11","12"};
-        default = 5;
+        default = 3;
     };
     class btc_p_load { // Load the savegame (if available)
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_DB_LOAD"]);
@@ -345,7 +345,7 @@ class Params {
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_OTHER_DISABLESPAWN"]);
         values[]={0,1};
         texts[]={$STR_DISABLED,$STR_ENABLED};
-        default = 0;
+        default = 1;
     };
     class btc_p_auto_headless { // Autodetect Headless client:
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_OTHER_AUTOHEADLESS"]);
