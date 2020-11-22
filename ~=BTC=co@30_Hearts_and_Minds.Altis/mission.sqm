@@ -7899,7 +7899,6 @@ class Mission
 			};
 			id=1024;
 			type="PortableHelipadLight_01_yellow_F";
-			atlOffset=-0.0024933815;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -7940,7 +7939,6 @@ class Mission
 			};
 			id=1027;
 			type="PortableHelipadLight_01_yellow_F";
-			atlOffset=-0.0019936562;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8101,7 +8099,7 @@ class Mission
 			};
 			id=1033;
 			type="PortableHelipadLight_01_yellow_F";
-			atlOffset=-0.00022411346;
+			atlOffset=-4.7683716e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8142,7 +8140,6 @@ class Mission
 			};
 			id=1034;
 			type="PortableHelipadLight_01_yellow_F";
-			atlOffset=-0.0033740997;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8223,7 +8220,7 @@ class Mission
 			};
 			id=1036;
 			type="PortableHelipadLight_01_white_F";
-			atlOffset=-0.0014636517;
+			atlOffset=-4.7683716e-007;
 			class CustomAttributes
 			{
 				class Attribute0
