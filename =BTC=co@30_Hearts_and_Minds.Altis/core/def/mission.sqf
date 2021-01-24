@@ -610,6 +610,9 @@ switch (_p_en) do {
         btc_type_gl = btc_type_gl;
     };*/
     case "OPF_G_F" : {
+
+        btc_type_units = btc_type_units - ["O_G_Soldier_LAT_F", "O_G_Soldier_LAT2_F"];  // Remove AT soldiers.
+
         btc_type_motorized = btc_type_motorized + ["I_Truck_02_transport_F", "I_Truck_02_covered_F"];
         btc_type_motorized_armed = btc_type_motorized_armed + ["I_Heli_light_03_F"];
     };
