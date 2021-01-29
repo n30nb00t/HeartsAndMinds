@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=1254;
+		nextID=1255;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={10975.498,398.33185,11520.546};
-		dir[]={0.46009663,-0.85267496,0.24767022};
-		up[]={0.75082022,0.52242416,0.40416679};
-		aside[]={0.47400939,5.858019e-007,-0.88056701};
+		pos[]={10925.58,485.40701,11538.564};
+		dir[]={0.72104365,-0.69252253,0.024486028};
+		up[]={0.69216591,0.72136194,0.023505624};
+		aside[]={0.03394074,6.4470805e-007,-0.99946851};
 	};
 };
 binarizationWanted=0;
@@ -777,7 +777,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=53;
+		items=54;
 		class Item0
 		{
 			dataType="Marker";
@@ -5380,7 +5380,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={11019.36,352.91937,11562.221};
+								position[]={11019.118,352.91937,11569.242};
 								angles[]={-0,3.1693404,0};
 							};
 							side="Empty";
@@ -5767,8 +5767,8 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={11017.547,352.46289,11507.521};
-								angles[]={6.2698579,3.11022,0.013327583};
+								position[]={11017.547,352.46271,11507.521};
+								angles[]={6.2698507,3.1102116,0.013334315};
 							};
 							side="Empty";
 							flags=4;
@@ -5780,7 +5780,7 @@ class Mission
 							};
 							id=174;
 							type="B_Heli_Transport_01_camo_F";
-							atlOffset=-0.093811035;
+							atlOffset=-0.093994141;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -5928,11 +5928,11 @@ class Mission
 						};
 					};
 					id=1095;
-					atlOffset=0.019897461;
+					atlOffset=0.019836426;
 				};
 			};
 			id=1093;
-			atlOffset=0.0022888184;
+			atlOffset=0.0022277832;
 		};
 		class Item33
 		{
@@ -6170,6 +6170,17 @@ class Mission
 			};
 			init="call{([0,0,0] nearestObject 481835) hideObjectGlobal true;}";
 			id=1253;
+			type="VirtualAISquad";
+		};
+		class Item53
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={11019.631,350.38,11571.373};
+			};
+			init="call{([0,0,0] nearestObject 481765) hideObjectGlobal true;}";
+			id=1254;
 			type="VirtualAISquad";
 		};
 	};
