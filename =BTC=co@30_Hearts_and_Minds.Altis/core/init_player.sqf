@@ -17,6 +17,8 @@ btc_intro_done = [] spawn btc_fnc_intro;
 
     [player] call btc_fnc_eh_player;
 
+    enableEngineArtillery false; 
+
     private _arsenal_trait = player call btc_fnc_arsenal_trait;
     if (btc_p_arsenal_Restrict isEqualTo 3) then {
         [_arsenal_trait select 1] call btc_fnc_arsenal_weaponsFilter;
