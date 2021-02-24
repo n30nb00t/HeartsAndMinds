@@ -24,9 +24,9 @@ params [
     ["_suicider", objNull, [objNull]]
 ];
 
-[_suicider] joinSilent createGroup [btc_enemy_side, true];
-
-_suicider call btc_fnc_rep_remove_eh;
+private _group = createGroup [btc_enemy_side, true];
+[_suicider] joinSilent _group;
+_group setVariable ["suicider", true];
 
 [group _suicider] call CBA_fnc_clearWaypoints;
 
@@ -38,7 +38,7 @@ _trigger setVariable ["suicider", _suicider];
 
 _trigger attachTo [_suicider, [0, 0, 0]];
 
-private _array = getPos _suicider nearEntities ["SoldierWB", 30];
+private _array = getPos _suicider nearEntities [btc_player_type, 30];
 
 if (_array isEqualTo []) exitWith {};
 
