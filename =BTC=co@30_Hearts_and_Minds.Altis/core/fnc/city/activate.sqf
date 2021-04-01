@@ -303,7 +303,7 @@ if (_numberOfPatrol < _p_patrol_max) then {
         _max = 3;
         _offset = 3/2;
     };
-    private _r = (_offset + random _max) min (_p_patrol_max - _numberOfPatrol);
+    private _r = (_offset + random _max) min (_p_patrol_max - _numberOfPatrol) * btc_p_mil_patrol_scale;
     for "_i" from 1 to round _r do {
         private _group = createGroup btc_enemy_side;
         btc_patrol_active pushBack _group;

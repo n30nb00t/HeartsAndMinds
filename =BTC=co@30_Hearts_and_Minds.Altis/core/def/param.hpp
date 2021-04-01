@@ -173,6 +173,21 @@ class Params {
         texts[]={"1","2","3","4","5","6","7","8","9","10"};
         default = 10;
     };
+
+    class btc_p_mil_unit_scale { 
+        title = "      Scale for unit count";
+        values[] = {0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2};
+        texts[] = {"25%", "50%", "75%", "100%", "125%", "150%", "175%", "200%"};
+        default = 1;
+    };
+
+    class btc_p_mil_patrol_scale { 
+        title = "      Scale for patrol count";
+        values[] = {0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2};
+        texts[] = {"25%", "50%", "75%", "100%", "125%", "150%", "175%", "200%"};
+        default = 1;
+    };
+
     class btc_p_IED_title { // << IED options >>
         title = $STR_BTC_HAM_PARAM_IED_TITLE;
         values[]={0};
