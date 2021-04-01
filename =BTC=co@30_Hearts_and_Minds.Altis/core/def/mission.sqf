@@ -63,8 +63,8 @@ btc_p_veh_armed_spawn_more = ("btc_p_veh_armed_spawn_more" call BIS_fnc_getParam
 btc_p_patrol_max = "btc_p_patrol_max" call BIS_fnc_getParamValue;
 btc_p_civ_max_veh = "btc_p_civ_max_veh" call BIS_fnc_getParamValue;
 
-btc_p_mil_unit_scale = "btc_p_mil_unit_scale" call BIS_fnc_getParamValue;
-btc_p_mil_patrol_scale = "btc_p_mil_patrol_scale" call BIS_fnc_getParamValue;
+btc_p_mil_unit_scale = ("btc_p_mil_unit_scale" call BIS_fnc_getParamValue)/100;
+btc_p_mil_patrol_scale = ("btc_p_mil_patrol_scale" call BIS_fnc_getParamValue)/100;
 
 //<< Gameplay options >>
 btc_p_sea = ("btc_p_sea" call BIS_fnc_getParamValue) isEqualTo 1;
