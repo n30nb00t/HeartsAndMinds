@@ -91,7 +91,7 @@ class Params {
     };
 
     class btc_p_AT_prob { // Anti-tank probability:
-        title = "      Scale for unit count";
+        title = "      Enemy AT probability";
         values[]={0,10,20,30,40,50,60,70,80,90,100};
         texts[]={"0%","10%","20%","30%","40%","50%","60%","70%","80%","90%","100%"};
         default = 50;
