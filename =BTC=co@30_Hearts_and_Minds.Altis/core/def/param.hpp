@@ -178,14 +178,14 @@ class Params {
         title = "      Scale for unit count";
         values[] = {25, 50, 75, 100, 125, 150, 175, 200};
         texts[] = {"25%", "50%", "75%", "100%", "125%", "150%", "175%", "200%"};
-        default = 150;
+        default = 125;
     };
 
     class btc_p_mil_patrol_scale { 
         title = "      Scale for patrol count";
         values[] = {25, 50, 75, 100, 125, 150, 175, 200};
         texts[] = {"25%", "50%", "75%", "100%", "125%", "150%", "175%", "200%"};
-        default = 125;
+        default = 100;
     };
 
     class btc_p_IED_title { // << IED options >>
