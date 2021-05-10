@@ -22,7 +22,7 @@ private _p_en = "btc_p_en" call BIS_fnc_getParamValue;
 private _p_en_AA = ("btc_p_AA" call BIS_fnc_getParamValue) isEqualTo 1;
 private _p_en_tank = ("btc_p_tank" call BIS_fnc_getParamValue) isEqualTo 1;
 
-private btc_at_prob = ("btc_p_AT_prob" call BIS_fnc_getParamValue) / 100;
+btc_at_prob = ("btc_p_AT_prob" call BIS_fnc_getParamValue) / 100;
 
 private _p_civ = "btc_p_civ" call BIS_fnc_getParamValue;
 private _p_civ_veh = "btc_p_civ_veh" call BIS_fnc_getParamValue;
