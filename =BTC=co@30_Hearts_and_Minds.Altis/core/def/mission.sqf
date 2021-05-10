@@ -21,6 +21,9 @@ btc_p_respawn_arsenal = ("btc_p_respawn_arsenal" call BIS_fnc_getParamValue) isE
 private _p_en = "btc_p_en" call BIS_fnc_getParamValue;
 private _p_en_AA = ("btc_p_AA" call BIS_fnc_getParamValue) isEqualTo 1;
 private _p_en_tank = ("btc_p_tank" call BIS_fnc_getParamValue) isEqualTo 1;
+
+private btc_at_prob = ("btc_p_AT_prob" call BIS_fnc_getParamValue) / 100;
+
 private _p_civ = "btc_p_civ" call BIS_fnc_getParamValue;
 private _p_civ_veh = "btc_p_civ_veh" call BIS_fnc_getParamValue;
 
@@ -649,6 +652,8 @@ btc_type_motorized_armed = _allclasse select 6;
 btc_type_mg = _allclasse select 7;
 btc_type_gl = _allclasse select 8;
 
+btc_type_at = [];
+
 //Sometimes you need to remove units: - ["Blabla","moreBlabla"];
 //Sometimes you need to add units: + ["Blabla","moreBlabla"];
 switch (_p_en) do {
@@ -662,8 +667,9 @@ switch (_p_en) do {
         btc_type_gl = btc_type_gl;
     };*/
     case "OPF_G_F" : {
+        btc_type_units = btc_type_units - ["O_G_Soldier_LAT_F"];  // Remove AT soldiers.
 
-        btc_type_units = btc_type_units - ["O_G_Soldier_LAT_F", "O_G_Soldier_LAT2_F"];  // Remove AT soldiers.
+        btc_type_at = ["O_G_Soldier_LAT2_F"];
 
         btc_type_motorized = btc_type_motorized + ["I_Truck_02_transport_F", "I_Truck_02_covered_F"];
         btc_type_motorized_armed = btc_type_motorized_armed + ["I_Heli_light_03_F"];

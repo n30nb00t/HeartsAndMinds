@@ -41,6 +41,10 @@ for "_i" from 1 to round (_number * btc_p_mil_unit_scale) do {
         selectRandom _type_units;
     };
 
+    while ((_unit_type in btc_type_at) && ((random 1) > btc_at_prob)) do {
+        _unit_type = selectRandom _type_units;
+    };
+
     [_group, _unit_type, _pos] call btc_fnc_delay_createUnit;
 };
 

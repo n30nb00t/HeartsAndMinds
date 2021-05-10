@@ -89,6 +89,14 @@ class Params {
         texts[]={$STR_DISABLED,$STR_ENABLED};
         default = 0;
     };
+
+    class btc_p_AT_prob { // Anti-tank probability:
+        title = "      Scale for unit count";
+        values[]={0,10,20,30,40,50,60,70,80,90,100};
+        texts[]={"0%","10%","20%","30%","40%","50%","60%","70%","80%","90%","100%"};
+        default = 50;
+    };
+
     class btc_p_tank { // Enemy uses Tank:
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_FAC_ETANK"]);
         values[]={0,1};
