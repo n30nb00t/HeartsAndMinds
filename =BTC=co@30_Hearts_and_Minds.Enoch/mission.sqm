@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=1268;
+		nextID=1269;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=38;
+		nextID=41;
 	};
 	class Camera
 	{
-		pos[]={9141.4199,259.59445,6466.7822};
-		dir[]={-0.40280053,-0.49052656,0.77274537};
-		up[]={-0.22673675,0.87142622,0.43497902};
-		aside[]={0.88675934,0,0.46223134};
+		pos[]={9095.7451,209.29985,6631.5156};
+		dir[]={-0.74582237,-0.63842744,0.19016603};
+		up[]={-0.61863494,0.76968282,0.15773645};
+		aside[]={0.24707055,-4.3015461e-008,0.96899927};
 	};
 };
 binarizationWanted=0;
@@ -375,24 +375,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -407,6 +389,24 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
 				};
 			};
 		};
@@ -3685,7 +3685,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8926.3643,138.73611,6558.0669};
+						position[]={8926.3643,138.73616,6558.0669};
 						angles[]={6.2660112,5.8354034,6.2749648};
 					};
 					side="Empty";
@@ -3697,7 +3697,7 @@ class Mission
 					};
 					id=1148;
 					type="CUP_B_AW159_Unarmed_GB";
-					atlOffset=0.00045776367;
+					atlOffset=0.00050354004;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3789,7 +3789,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={9104.2832,132.42949,6692.5386};
-						angles[]={-0,4.3864837,0.006394445};
+						angles[]={0,4.3864837,0.006394445};
 					};
 					side="Empty";
 					flags=4;
