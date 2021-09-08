@@ -288,8 +288,10 @@ if (isServer) then {
     btc_type_solarPanel = _allClassSorted select {_x isKindOf "Land_SolarPanel_04_base_F"};
 
     //BTC Vehicles in missions.sqm
-    btc_vehicles = [btc_veh_1, btc_veh_2, btc_veh_3, btc_veh_4, btc_veh_5, btc_veh_6, btc_veh_7, btc_veh_8, btc_veh_9, btc_veh_10, btc_veh_11, btc_veh_12, btc_veh_13, btc_veh_14, btc_veh_15, btc_veh_16, btc_veh_17, btc_veh_18, btc_veh_19, btc_veh_20, btc_veh_21, btc_veh_22];
-    btc_helo = [btc_helo_1];
+
+    // Replaces by mision logics!
+    // btc_vehicles = [btc_veh_1, btc_veh_2, btc_veh_3, btc_veh_4, btc_veh_5, btc_veh_6, btc_veh_7, btc_veh_8, btc_veh_9, btc_veh_10, btc_veh_11, btc_veh_12, btc_veh_13, btc_veh_14, btc_veh_15, btc_veh_16, btc_veh_17, btc_veh_18, btc_veh_19, btc_veh_20, btc_veh_21, btc_veh_22];
+    // btc_helo = [btc_helo_1];
 
     // The two arrays below are prefixes of buildings and their multiplier.
     // They will multiply the values of btc_rep_malus_building_destroyed and btc_rep_malus_building_damaged,
@@ -684,7 +686,7 @@ switch (_p_en) do {
 
         btc_type_at = ["I_E_Soldier_AT_F"];
 
-        btc_type_crewmen = [btc_type_crewmen, "I_E_Crew_F"];
+        btc_type_crewmen = [btc_type_crewmen] + ["I_E_Crew_F"];
 
         btc_type_motorized = btc_type_motorized - ["I_E_Truck_02_MRL_F"];
         btc_type_motorized_armed = btc_type_motorized_armed - ["I_E_Truck_02_MRL_F"] + ["CUP_I_Hilux_SPG9_IND_G_F","CUP_I_Hilux_M2_IND_G_F","CUP_I_Hilux_DSHKM_IND_G_F","CUP_I_Hilux_AGS30_IND_G_F"];
