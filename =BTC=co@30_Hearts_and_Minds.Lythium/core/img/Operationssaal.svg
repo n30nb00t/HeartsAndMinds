@@ -8,8 +8,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="2048mm"
-   height="1152mm"
-   viewBox="0 0 2048 1152"
+   height="1024mm"
+   viewBox="0 0 2048 1024"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
@@ -40,11 +40,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.15100502"
-     inkscape:cx="3346.4945"
-     inkscape:cy="1504.9235"
+     inkscape:zoom="0.075502512"
+     inkscape:cx="1202.4464"
+     inkscape:cy="3297.3408"
      inkscape:document-units="px"
-     inkscape:current-layer="g929"
+     inkscape:current-layer="layer2"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1920"
@@ -70,20 +70,21 @@
      inkscape:label="Logo">
     <g
        id="g929"
-       transform="matrix(1.4749963,0,0,1.4749963,351.49086,118.63253)"
+       transform="matrix(1.4749963,0,0,1.4749963,318.63806,86.852927)"
        style="opacity:0.973;filter:url(#filter959)">
       <rect
-         width="900"
-         height="600"
+         width="787.74341"
+         height="525.16223"
          fill="#ffffff"
          id="rect915"
-         x="0"
-         y="0" />
+         x="84.34095"
+         y="42.764427"
+         style="stroke-width:0.87527" />
       <path
-         d="m 477.32123,152.74591 156,156 -156,156 -156,-156 z"
+         d="M 490.38814,156.47995 627.21139,298.64876 490.38814,440.81756 353.56488,298.64876 Z"
          fill="none"
          stroke="#cc0000"
-         stroke-width="77"
+         stroke-width="68.8412"
          id="path917" />
     </g>
   </g>
@@ -94,28 +95,28 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:200px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="427.16876"
-       y="1067.7751"
+       x="395.63083"
+       y="997.68921"
        id="text993"
        inkscape:export-xdpi="25.4"
        inkscape:export-ydpi="25.4"><tspan
          sodipodi:role="line"
          id="tspan991"
-         x="427.16876"
-         y="1067.7751"
+         x="395.63083"
+         y="997.68921"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:200px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583">KEIN ZUTRITT</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:200px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="375.99689"
-       y="201.72368"
+       x="344.45895"
+       y="198.21938"
        id="text993-4"
        inkscape:export-xdpi="25.4"
        inkscape:export-ydpi="25.4"><tspan
          sodipodi:role="line"
          id="tspan991-5"
-         x="375.99689"
-         y="201.72368"
+         x="344.45895"
+         y="198.21938"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:200px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583">Operationssaal</tspan></text>
   </g>
 </svg>

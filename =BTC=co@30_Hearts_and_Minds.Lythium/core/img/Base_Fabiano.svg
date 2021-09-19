@@ -14,7 +14,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
-   sodipodi:docname="FOB_Dionysos.svg"
+   sodipodi:docname="Base_Fabiano.svg"
    inkscape:export-filename="C:\Users\cw\Desktop\FOB_Dionysos.png"
    inkscape:export-xdpi="25.4"
    inkscape:export-ydpi="25.4">
@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.16256039"
-     inkscape:cx="3781.6723"
-     inkscape:cy="2388.0886"
+     inkscape:zoom="0.099581696"
+     inkscape:cx="3564.2046"
+     inkscape:cy="523.15067"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -141,15 +141,15 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:200px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="403.10153"
+       x="387.37888"
        y="920.59467"
        id="text993"
        inkscape:export-xdpi="25.4"
        inkscape:export-ydpi="25.4"><tspan
          sodipodi:role="line"
          id="tspan991"
-         x="403.10153"
+         x="387.37888"
          y="920.59467"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:200px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583">FOB Dionysos</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:200px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583">Fabiano Camp</tspan></text>
   </g>
 </svg>
